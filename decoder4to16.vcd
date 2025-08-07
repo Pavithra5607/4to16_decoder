@@ -1,0 +1,49 @@
+$date
+	Thu Aug  7 09:07:41 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_decoder4to16 $end
+$var wire 16 ! out [15:0] $end
+$var reg 1 " en $end
+$var reg 4 # in [3:0] $end
+$var integer 32 $ i [31:0] $end
+$scope module uut $end
+$var wire 1 " en $end
+$var wire 4 % in [3:0] $end
+$var reg 16 & out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+bx $
+b0 #
+0"
+b0 !
+$end
+#10
+b1010 #
+b1010 %
+#20
+bx !
+bx &
+bx #
+bx %
+1"
+#30
+b0 !
+b0 &
+b111 #
+b111 %
+0"
+#40
